@@ -7,6 +7,7 @@ target 'YNPodDemo' do
 
   # Pods for YNPodDemo
   pod 'Alamofire', '~>4.3.0'
+  pod 'YNWebViewController', '~>0.1.5'
 
   target 'YNPodDemoTests' do
     inherit! :search_paths

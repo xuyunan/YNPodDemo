@@ -1,12 +1,15 @@
 PODS:
   - Alamofire (4.3.0)
+  - YNWebViewController (0.1.5)
 
 DEPENDENCIES:
   - Alamofire (~> 4.3.0)
+  - YNWebViewController (~> 0.1.5)
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  YNWebViewController: 5db06945146afbba99e2753a74c4d8e949712546
 
-PODFILE CHECKSUM: bd21a864d9838aecee3bf6a85c070b5e2b8cb9a1
+PODFILE CHECKSUM: 94e2becd6847a49e14607f0b8d33c38c4b3f2fb7
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1.beta.1

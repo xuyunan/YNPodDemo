@@ -8,8 +8,9 @@
 
 import UIKit
 import Alamofire
+import YNWebViewController
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIWebViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,19 @@ class ViewController: UIViewController {
                 print("JSON: \(JSON)")
             }
         }
+    }
+    
+    @IBAction func presentController(_ sender: AnyObject) {
+        let webViewController = YNWebViewController(url: URL(string: "https://www.baidu.com")!)
+        webViewController.delegate = self
+        let navController = UINavigationController(rootViewController: webViewController)
+        self.present(navController, animated: true, completion: nil)
+    }
+    
+    // MARK: - UIWebViewDelegate
+    
+    public func webViewDidFinishLoad(_ webView: UIWebView) {
+        print("webViewDidFinishLoad")
     }
 
     override func didReceiveMemoryWarning() {
