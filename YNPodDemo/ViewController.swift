@@ -9,12 +9,15 @@
 import UIKit
 import Alamofire
 import YNWebViewController
+import HexColors
 
 class ViewController: UIViewController, UIWebViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        view.backgroundColor = UIColor(hex:0xFF0000)
         
         Alamofire.request("https://httpbin.org/get").responseJSON { response in
             print(response.request ?? "")  // original URL request

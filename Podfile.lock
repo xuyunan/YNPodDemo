@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (4.3.0)
+  - HexColors (0.0.3)
   - YNWebViewController (0.1.5)
 
 DEPENDENCIES:
   - Alamofire (~> 4.3.0)
+  - HexColors (~> 0.0.3)
   - YNWebViewController (~> 0.1.5)
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  HexColors: e15fee0409e1cd47f243b2b173d172dbc681b804
   YNWebViewController: 5db06945146afbba99e2753a74c4d8e949712546
 
-PODFILE CHECKSUM: 94e2becd6847a49e14607f0b8d33c38c4b3f2fb7
+PODFILE CHECKSUM: 1a462a2771bb2888637c07f18ba9e8309802e987
 
 COCOAPODS: 1.2.1.beta.1
