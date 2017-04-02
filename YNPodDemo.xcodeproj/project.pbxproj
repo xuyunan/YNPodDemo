@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438941CAAB0733F7FD715EA0 /* Pods_YNPodDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E5A19D28D4E3AE51A50C14 /* Pods_YNPodDemoUITests.framework */; };
+		658EC0551E90976C00667F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EC0541E90976C00667F2F /* AppDelegate.swift */; };
+		658EC0571E90976C00667F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EC0561E90976C00667F2F /* ViewController.swift */; };
+		658EC05A1E90976C00667F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658EC0581E90976C00667F2F /* Main.storyboard */; };
+		658EC05C1E90976C00667F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658EC05B1E90976C00667F2F /* Assets.xcassets */; };
+		658EC05F1E90976C00667F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658EC05D1E90976C00667F2F /* LaunchScreen.storyboard */; };
+		658EC06A1E90976C00667F2F /* YNPodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EC0691E90976C00667F2F /* YNPodDemoTests.swift */; };
+		658EC0751E90976C00667F2F /* YNPodDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658EC0741E90976C00667F2F /* YNPodDemoUITests.swift */; };
+		C3EC815D6C224236B4BE12DD /* Pods_YNPodDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF362F3BFF773A9D5E9BA8D /* Pods_YNPodDemo.framework */; };
+		FDDE51212685B2552D72F922 /* Pods_YNPodDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0FEB1289170A48F38C216C /* Pods_YNPodDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		658EC0661E90976C00667F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658EC0491E90976C00667F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658EC0501E90976C00667F2F;
+			remoteInfo = YNPodDemo;
+		};
+		658EC0711E90976C00667F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658EC0491E90976C00667F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658EC0501E90976C00667F2F;
+			remoteInfo = YNPodDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD5105383F5971B50466DD0 /* Pods-YNPodDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNPodDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YNPodDemoUITests/Pods-YNPodDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		391E40598FBCE4A3467F36E0 /* Pods-YNPodDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNPodDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNPodDemoUITests/Pods-YNPodDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3780930E530604C42EB925 /* Pods-YNPodDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNPodDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNPodDemoTests/Pods-YNPodDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		658EC0511E90976C00667F2F /* YNPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		658EC0541E90976C00667F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		658EC0561E90976C00667F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		658EC0591E90976C00667F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		658EC05B1E90976C00667F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		658EC05E1E90976C00667F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		658EC0601E90976C00667F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658EC0651E90976C00667F2F /* YNPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		658EC0691E90976C00667F2F /* YNPodDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNPodDemoTests.swift; sourceTree = "<group>"; };
+		658EC06B1E90976C00667F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658EC0701E90976C00667F2F /* YNPodDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNPodDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		658EC0741E90976C00667F2F /* YNPodDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNPodDemoUITests.swift; sourceTree = "<group>"; };
+		658EC0761E90976C00667F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF362F3BFF773A9D5E9BA8D /* Pods_YNPodDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNPodDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B959D6B26225ADFCC0EA0D83 /* Pods-YNPodDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNPodDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNPodDemo/Pods-YNPodDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CFB2AE5E2DB007ADF82C7C9F /* Pods-YNPodDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNPodDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YNPodDemoTests/Pods-YNPodDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9E5A19D28D4E3AE51A50C14 /* Pods_YNPodDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNPodDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F185A39C993E23DB2C48ED92 /* Pods-YNPodDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNPodDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YNPodDemo/Pods-YNPodDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FA0FEB1289170A48F38C216C /* Pods_YNPodDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNPodDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		658EC04E1E90976C00667F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EC815D6C224236B4BE12DD /* Pods_YNPodDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658EC0621E90976C00667F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDE51212685B2552D72F922 /* Pods_YNPodDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658EC06D1E90976C00667F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438941CAAB0733F7FD715EA0 /* Pods_YNPodDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65777AD1CD63A016442D63B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF362F3BFF773A9D5E9BA8D /* Pods_YNPodDemo.framework */,
+				FA0FEB1289170A48F38C216C /* Pods_YNPodDemoTests.framework */,
+				D9E5A19D28D4E3AE51A50C14 /* Pods_YNPodDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		658EC0481E90976C00667F2F = {
+			isa = PBXGroup;
+			children = (
+				658EC0531E90976C00667F2F /* YNPodDemo */,
+				658EC0681E90976C00667F2F /* YNPodDemoTests */,
+				658EC0731E90976C00667F2F /* YNPodDemoUITests */,
+				658EC0521E90976C00667F2F /* Products */,
+				D30EA572738006CB9FC6089E /* Pods */,
+				65777AD1CD63A016442D63B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		658EC0521E90976C00667F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				658EC0511E90976C00667F2F /* YNPodDemo.app */,
+				658EC0651E90976C00667F2F /* YNPodDemoTests.xctest */,
+				658EC0701E90976C00667F2F /* YNPodDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		658EC0531E90976C00667F2F /* YNPodDemo */ = {
+			isa = PBXGroup;
+			children = (
+				658EC0541E90976C00667F2F /* AppDelegate.swift */,
+				658EC0561E90976C00667F2F /* ViewController.swift */,
+				658EC0581E90976C00667F2F /* Main.storyboard */,
+				658EC05B1E90976C00667F2F /* Assets.xcassets */,
+				658EC05D1E90976C00667F2F /* LaunchScreen.storyboard */,
+				658EC0601E90976C00667F2F /* Info.plist */,
+			);
+			path = YNPodDemo;
+			sourceTree = "<group>";
+		};
+		658EC0681E90976C00667F2F /* YNPodDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				658EC0691E90976C00667F2F /* YNPodDemoTests.swift */,
+				658EC06B1E90976C00667F2F /* Info.plist */,
+			);
+			path = YNPodDemoTests;
+			sourceTree = "<group>";
+		};
+		658EC0731E90976C00667F2F /* YNPodDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				658EC0741E90976C00667F2F /* YNPodDemoUITests.swift */,
+				658EC0761E90976C00667F2F /* Info.plist */,
+			);
+			path = YNPodDemoUITests;
+			sourceTree = "<group>";
+		};
+		D30EA572738006CB9FC6089E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B959D6B26225ADFCC0EA0D83 /* Pods-YNPodDemo.debug.xcconfig */,
+				F185A39C993E23DB2C48ED92 /* Pods-YNPodDemo.release.xcconfig */,
+				4E3780930E530604C42EB925 /* Pods-YNPodDemoTests.debug.xcconfig */,
+				CFB2AE5E2DB007ADF82C7C9F /* Pods-YNPodDemoTests.release.xcconfig */,
+				391E40598FBCE4A3467F36E0 /* Pods-YNPodDemoUITests.debug.xcconfig */,
+				0AD5105383F5971B50466DD0 /* Pods-YNPodDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		658EC0501E90976C00667F2F /* YNPodDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658EC0791E90976C00667F2F /* Build configuration list for PBXNativeTarget "YNPodDemo" */;
+			buildPhases = (
+				8AF53F32FEB84941D7FCCA27 /* [CP] Check Pods Manifest.lock */,
+				658EC04D1E90976C00667F2F /* Sources */,
+				658EC04E1E90976C00667F2F /* Frameworks */,
+				658EC04F1E90976C00667F2F /* Resources */,
+				1BB0CB92E2D9D40C881E2B95 /* [CP] Embed Pods Frameworks */,
+				7C480491FC9805411B549FEC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNPodDemo;
+			productName = YNPodDemo;
+			productReference = 658EC0511E90976C00667F2F /* YNPodDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		658EC0641E90976C00667F2F /* YNPodDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658EC07C1E90976C00667F2F /* Build configuration list for PBXNativeTarget "YNPodDemoTests" */;
+			buildPhases = (
+				DD0E0B198AC851C09733F9BD /* [CP] Check Pods Manifest.lock */,
+				658EC0611E90976C00667F2F /* Sources */,
+				658EC0621E90976C00667F2F /* Frameworks */,
+				658EC0631E90976C00667F2F /* Resources */,
+				89C977ABB64279F383CAB578 /* [CP] Embed Pods Frameworks */,
+				CE21128D2270DF356FE38F8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658EC0671E90976C00667F2F /* PBXTargetDependency */,
+			);
+			name = YNPodDemoTests;
+			productName = YNPodDemoTests;
+			productReference = 658EC0651E90976C00667F2F /* YNPodDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		658EC06F1E90976C00667F2F /* YNPodDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658EC07F1E90976C00667F2F /* Build configuration list for PBXNativeTarget "YNPodDemoUITests" */;
+			buildPhases = (
+				E65CEBC1BC7ED923A941834B /* [CP] Check Pods Manifest.lock */,
+				658EC06C1E90976C00667F2F /* Sources */,
+				658EC06D1E90976C00667F2F /* Frameworks */,
+				658EC06E1E90976C00667F2F /* Resources */,
+				E3D49F1F47FE857484C60574 /* [CP] Embed Pods Frameworks */,
+				13E262C234E49614C215108D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				658EC0721E90976C00667F2F /* PBXTargetDependency */,
+			);
+			name = YNPodDemoUITests;
+			productName = YNPodDemoUITests;
+			productReference = 658EC0701E90976C00667F2F /* YNPodDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		658EC0491E90976C00667F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "xu_yunan@163.com";
+				TargetAttributes = {
+					658EC0501E90976C00667F2F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					658EC0641E90976C00667F2F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 658EC0501E90976C00667F2F;
+					};
+					658EC06F1E90976C00667F2F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 658EC0501E90976C00667F2F;
+					};
+				};
+			};
+			buildConfigurationList = 658EC04C1E90976C00667F2F /* Build configuration list for PBXProject "YNPodDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 658EC0481E90976C00667F2F;
+			productRefGroup = 658EC0521E90976C00667F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658EC0501E90976C00667F2F /* YNPodDemo */,
+				658EC0641E90976C00667F2F /* YNPodDemoTests */,
+				658EC06F1E90976C00667F2F /* YNPodDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		658EC04F1E90976C00667F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658EC05F1E90976C00667F2F /* LaunchScreen.storyboard in Resources */,
+				658EC05C1E90976C00667F2F /* Assets.xcassets in Resources */,
+				658EC05A1E90976C00667F2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658EC0631E90976C00667F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658EC06E1E90976C00667F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13E262C234E49614C215108D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNPodDemoUITests/Pods-YNPodDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB0CB92E2D9D40C881E2B95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNPodDemo/Pods-YNPodDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C480491FC9805411B549FEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNPodDemo/Pods-YNPodDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C977ABB64279F383CAB578 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNPodDemoTests/Pods-YNPodDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF53F32FEB84941D7FCCA27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE21128D2270DF356FE38F8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNPodDemoTests/Pods-YNPodDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0E0B198AC851C09733F9BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D49F1F47FE857484C60574 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YNPodDemoUITests/Pods-YNPodDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65CEBC1BC7ED923A941834B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		658EC04D1E90976C00667F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658EC0571E90976C00667F2F /* ViewController.swift in Sources */,
+				658EC0551E90976C00667F2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658EC0611E90976C00667F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658EC06A1E90976C00667F2F /* YNPodDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658EC06C1E90976C00667F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658EC0751E90976C00667F2F /* YNPodDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		658EC0671E90976C00667F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658EC0501E90976C00667F2F /* YNPodDemo */;
+			targetProxy = 658EC0661E90976C00667F2F /* PBXContainerItemProxy */;
+		};
+		658EC0721E90976C00667F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658EC0501E90976C00667F2F /* YNPodDemo */;
+			targetProxy = 658EC0711E90976C00667F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		658EC0581E90976C00667F2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658EC0591E90976C00667F2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		658EC05D1E90976C00667F2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658EC05E1E90976C00667F2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		658EC0771E90976C00667F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		658EC0781E90976C00667F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		658EC07A1E90976C00667F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B959D6B26225ADFCC0EA0D83 /* Pods-YNPodDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		658EC07B1E90976C00667F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F185A39C993E23DB2C48ED92 /* Pods-YNPodDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		658EC07D1E90976C00667F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3780930E530604C42EB925 /* Pods-YNPodDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YNPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNPodDemo.app/YNPodDemo";
+			};
+			name = Debug;
+		};
+		658EC07E1E90976C00667F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB2AE5E2DB007ADF82C7C9F /* Pods-YNPodDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YNPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNPodDemo.app/YNPodDemo";
+			};
+			name = Release;
+		};
+		658EC0801E90976C00667F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391E40598FBCE4A3467F36E0 /* Pods-YNPodDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YNPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YNPodDemo;
+			};
+			name = Debug;
+		};
+		658EC0811E90976C00667F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD5105383F5971B50466DD0 /* Pods-YNPodDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YNPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YNPodDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658EC04C1E90976C00667F2F /* Build configuration list for PBXProject "YNPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658EC0771E90976C00667F2F /* Debug */,
+				658EC0781E90976C00667F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658EC0791E90976C00667F2F /* Build configuration list for PBXNativeTarget "YNPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658EC07A1E90976C00667F2F /* Debug */,
+				658EC07B1E90976C00667F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658EC07C1E90976C00667F2F /* Build configuration list for PBXNativeTarget "YNPodDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658EC07D1E90976C00667F2F /* Debug */,
+				658EC07E1E90976C00667F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		658EC07F1E90976C00667F2F /* Build configuration list for PBXNativeTarget "YNPodDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				658EC0801E90976C00667F2F /* Debug */,
+				658EC0811E90976C00667F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 658EC0491E90976C00667F2F /* Project object */;
+}
