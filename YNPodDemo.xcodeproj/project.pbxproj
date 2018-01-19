@@ -242,8 +242,8 @@
 				TargetAttributes = {
 					658EC0501E90976C00667F2F = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = J35LXBNR3D;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = ZC9P3YJ2F3;
+						ProvisioningStyle = Manual;
 					};
 					658EC0641E90976C00667F2F = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -620,11 +620,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J35LXBNR3D;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZC9P3YJ2F3;
 				INFOPLIST_FILE = YNPodDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.jxhocqa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63c8c3ad-3d6c-4493-981b-0d27e41058b3";
+				PROVISIONING_PROFILE_SPECIFIER = hocqa_dev;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -635,11 +639,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J35LXBNR3D;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZC9P3YJ2F3;
 				INFOPLIST_FILE = YNPodDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuyunan.YNPodDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weimob.jxhocqa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "81d67439-8461-4353-9a90-424bfda27ded";
+				PROVISIONING_PROFILE_SPECIFIER = hocqa_dis;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
